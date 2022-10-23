@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "firstmod",
+  "version": "${version}",
+  "name": "FirstMod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/firstmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.monica.cat.firstmod.client.FirstModClient"
+    ],
+    "main": [
+      "me.monica.cat.firstmod.FirstMod"
+    ]
+  },
+  "mixins": [
+    "FirstMod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
